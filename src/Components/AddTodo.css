@@ -1,0 +1,24 @@
+.center{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  }
+  #one{
+    width: 350px;
+    height: 50px;
+ 
+  }
+  .row>* {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+   padding: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+    justify-content: center;
+    padding: 10px;
+}
